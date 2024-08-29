@@ -1,8 +1,8 @@
 {
   "name": "personal-portfolio",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://trinadas0.github.io/react-gh-pages",
+  "private": false,
+  "homepage": "https://trinadas0.github.io/trinadas0.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
