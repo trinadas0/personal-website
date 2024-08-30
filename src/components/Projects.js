@@ -15,7 +15,7 @@ export const Projects = () => {
       title: "Book Tracker with PHP and SQL",
       description: "A simple Book Tracker application built with PHP and MySQL.",
       imgUrl: projImg2,
-      link: "https://booktracker.das24.myweb.cs.uwindsor.ca/",
+      link: "https://github.com/trinadas0/book-tracker",
     },
     {
       title: "PyTorch Image Classification",
