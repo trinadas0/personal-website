@@ -22,8 +22,12 @@ export const Projects = () => {
       description: "Building a simple CNN using PyTorch.",
       imgUrl: projImg1,
       link: "https://github.com/trinadas0/pytorch-image-classification",
+
+      title: "Tetris with HTML/CSS and Javascript",
+      description: "A classic Tetris clone.",
+      imgUrl: projImg3,
+      link: "https://github.com/trinadas0/tetris",
     },
-    // Add more projects here...
   ];
 
   return (
