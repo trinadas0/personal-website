@@ -13,22 +13,24 @@ export const Projects = () => {
 
   const projects = [
     {
+      title: "PyTorch Image Classification",
+      description: "Building a simple CNN using PyTorch.",
+      imgUrl: projImg1,
+      link: "https://github.com/trinadas0/pytorch-image-classification",
+    },
+    {
       title: "Book Tracker with PHP and SQL",
       description: "A Book Tracker application with integrated database functionality.",
       imgUrl: projImg2,
       link: "https://github.com/trinadas0/book-tracker",
     },
     {
-      title: "PyTorch Image Classification",
-      description: "Building a simple CNN using PyTorch.",
-      imgUrl: projImg1,
-      link: "https://github.com/trinadas0/pytorch-image-classification",
-
       title: "Tetris with HTML/CSS and Javascript",
       description: "A classic Tetris clone.",
       imgUrl: projImg3,
       link: "https://github.com/trinadas0/tetris",
     },
+
   ];
 
   return (
