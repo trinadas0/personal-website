@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "software developer", "AI enthusiast", "UX designer", "cat mom" ];
+  const toRotate = [ "a software developer", "an AI enthusiast", "a UX designer", "a cat mom", "your new hire?"];
   const period = 2000;
 
   useEffect(() => {
@@ -56,7 +56,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Made with React.js (and love ♡)</span>
-                <h1>{`I'm Trina Das. I'm a `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "software developer", "web designer", "UI/UX designer" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`I'm Trina Das. I'm  `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "software developer", "web designer", "UI/UX designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I'm a Computer Science major at the University of Windsor. I’m passionate about full-stack development and love finding ways to integrate machine learning into my projects. When I’m not coding, I enjoy spending time with my pet cat.</p>
               </div>}
             </TrackVisibility>
