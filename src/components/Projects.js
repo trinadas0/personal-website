@@ -10,13 +10,14 @@ export const Projects = () => {
 
   const codingProjects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Book Tracker with PHP and SQL",
+      description: "A simple Book Tracker application built with PHP and MySQL.",
       imgUrl: projImg2,
+      link: "https://booktracker.das24.myweb.cs.uwindsor.ca/",
     },
   ];
 
-  const dataProjects = [
+  const AIProjects = [
     {
       title: "PyTorch Image Classification",
       description: "Building a simple CNN using PyTorch.",
@@ -68,7 +69,7 @@ export const Projects = () => {
                     <Tab.Pane eventKey="third">
                       <Row>
                         {
-                          dataProjects.map((project, index) => {
+                          AIProjects.map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
