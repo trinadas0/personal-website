@@ -43,7 +43,7 @@ export const Skills = () => {
                   <div className={isVisibleOnce ? "custom-fade-in" : "hidden"}>
                     <div className="skill-bx wow zoomIn p-5">
                       <h2 className="mb-4">Skills</h2>
-                      <p className="mb-5">Proficient in Python, Java, C, web development with Bootstrap and React.js, and machine learning with PyTorch.</p>
+                      <p className="mb-5">I'm proficient in Python, Java, PHP, SQL, JavaScript, and so much more!</p>
                       <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                         <div className="item">
                           <img src={meter1} alt="Image" />

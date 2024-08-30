@@ -13,7 +13,7 @@ export const Projects = () => {
   const projects = [
     {
       title: "Book Tracker with PHP and SQL",
-      description: "A simple Book Tracker application built with PHP and MySQL.",
+      description: "A Book Tracker application with integrated database functionality.",
       imgUrl: projImg2,
       link: "https://github.com/trinadas0/book-tracker",
     },
@@ -40,7 +40,7 @@ export const Projects = () => {
                   <div className={isVisibleOnce ? "custom-fade-in" : "hidden"}>
                     <div className="projects-bg">
                       <h2>Projects</h2>
-                      <p>Explore my diverse range of projects, showcasing skills in software development, UX/UI design, and data science.</p>
+                      <p>Check out some of my favourite personal projects!</p>
                       <Row>
                         {projects.map((project, index) => {
                           return (
