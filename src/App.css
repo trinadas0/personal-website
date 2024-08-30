@@ -265,7 +265,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  /**background-image: url('./assets/img/banner-bg.png');**/
   background-color: #000000;
   background-position: top center;
   background-size: cover;
@@ -276,7 +275,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   padding: 8px 10px;
   background: linear-gradient(90.21deg, rgba(255, 201, 102, 0.5) -5.91%, rgba(250, 32, 145, 0.5) 111.58%);
-  /*border: 1px solid rgba(255, 255, 255, 0.5);*/
   font-size: 20px;
   margin-bottom: 16px;
   display: inline-block;
@@ -341,8 +339,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-family: 'Instrument', sans-serif;
   font-style: italic;
   font-size: 80px;
-  letter-spacing: 2px; 
+  letter-spacing: 2px;
+  animation: blink-caret 0.75s step-end infinite; 
 }
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #666;
+  }
+}
+
 
 
 /************ Skills Css ************/
