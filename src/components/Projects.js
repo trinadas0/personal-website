@@ -4,6 +4,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import projImg4 from "../assets/img/project-img4.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -14,9 +15,15 @@ export const Projects = () => {
   const projects = [
     {
       title: "PyTorch Image Classification",
-      description: "Building a simple CNN using PyTorch.",
+      description: "A simple CNN using PyTorch.",
       imgUrl: projImg1,
       link: "https://github.com/trinadas0/pytorch-image-classification",
+    },
+    {
+      title: "Bank Simulation Using OOP Fundamentals",
+      description: "A banking system simulation implemented in Java.",
+      imgUrl: projImg4,
+      link: "https://github.com/trinadas0/bank-system",
     },
     {
       title: "Book Tracker with PHP and SQL",
