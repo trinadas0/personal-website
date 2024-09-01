@@ -47,7 +47,7 @@ export const Projects = () => {
     },
     {
       title: "Collaborative Booking Management System",
-      description: "A team-driven project to build an online hotel booking management system, focusing on collaborative development, user experience, and secure reservation management.",
+      description: "A team-driven project to build an online hotel booking management system.",
       imgUrl: projImg6,
       link: "https://github.com/trinadas0/Hotel-Management-Website",
     },  
