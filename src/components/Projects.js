@@ -15,10 +15,10 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "PyTorch Image Classification",
-      description: "A simple CNN using PyTorch.",
-      imgUrl: projImg1,
-      link: "https://github.com/trinadas0/pytorch-image-classification",
+      title: "Reading Tracker with PHP and SQL",
+      description: "A Reading Tracker application with integrated database functionality.",
+      imgUrl: projImg2,
+      link: "https://github.com/trinadas0/book-tracker",
     },
     {
       title: "Bank Simulation Using OOP Fundamentals",
@@ -27,10 +27,10 @@ export const Projects = () => {
       link: "https://github.com/trinadas0/bank-system",
     },
     {
-      title: "Book Tracker with PHP and SQL",
-      description: "A Book Tracker application with integrated database functionality.",
-      imgUrl: projImg2,
-      link: "https://github.com/trinadas0/book-tracker",
+      title: "PyTorch Image Classification",
+      description: "A simple CNN using PyTorch.",
+      imgUrl: projImg1,
+      link: "https://github.com/trinadas0/pytorch-image-classification",
     },
     {
       title: "Tetris with HTML/CSS and Javascript",
@@ -44,7 +44,6 @@ export const Projects = () => {
       imgUrl: projImg5,
       link: "https://github.com/trinadas0/book-outlet",
     },
-
   ];
 
   return (
