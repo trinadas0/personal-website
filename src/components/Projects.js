@@ -6,6 +6,7 @@ import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/project-img4.png";
 import projImg5 from "../assets/img/project-img5.png";
+import projImg6 from "../assets/img/project-img6.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -33,17 +34,23 @@ export const Projects = () => {
       link: "https://github.com/trinadas0/pytorch-image-classification",
     },
     {
+      title: "Full-Stack Bookstore with Django",
+      description: "A bookstore with login and cart functionality.",
+      imgUrl: projImg5,
+      link: "https://github.com/trinadas0/book-outlet",
+    },
+    {
       title: "Tetris with HTML/CSS and Javascript",
       description: "A classic Tetris clone.",
       imgUrl: projImg3,
       link: "https://github.com/trinadas0/tetris",
     },
     {
-      title: "Full-Stack Bookstore with Django",
-      description: "A bookstore with login and cart functionality.",
-      imgUrl: projImg5,
-      link: "https://github.com/trinadas0/book-outlet",
-    },
+      title: "Collaborative Booking Management System",
+      description: "A team-driven project to build an online hotel booking management system, focusing on collaborative development, user experience, and secure reservation management.",
+      imgUrl: projImg6,
+      link: "https://github.com/trinadas0/Hotel-Management-Website",
+    },  
   ];
 
   return (
