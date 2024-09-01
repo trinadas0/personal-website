@@ -40,7 +40,7 @@ export const Projects = () => {
     },
     {
       title: "Full-Stack Bookstore with Django",
-      description: "An online bookstore with cart functionality.",
+      description: "A bookstore with login and cart functionality.",
       imgUrl: projImg5,
       link: "https://github.com/trinadas0/book-outlet",
     },
