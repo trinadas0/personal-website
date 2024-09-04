@@ -34,11 +34,11 @@ export const Projects = () => {
       link: "https://github.com/trinadas0/pytorch-image-classification",
     },
     {
-      title: "AI Chatbot Using Google Gemini API and Flask",
-      description: "An AI-powered conversational chatbot.",
-      imgUrl: projImg6,
-      link: "https://github.com/trinadas0/bff-bot",
-    },  
+      title: "Full-Stack Bookstore with Django",
+      description: "A bookstore with login and cart functionality.",
+      imgUrl: projImg5,
+      link: "https://github.com/trinadas0/book-outlet",
+    }, 
     {
       title: "Tetris with HTML/CSS and Javascript",
       description: "A classic Tetris clone.",
@@ -46,11 +46,11 @@ export const Projects = () => {
       link: "https://github.com/trinadas0/tetris",
     },
     {
-      title: "Full-Stack Bookstore with Django",
-      description: "A bookstore with login and cart functionality.",
-      imgUrl: projImg5,
-      link: "https://github.com/trinadas0/book-outlet",
-    },
+      title: "AI Chatbot Using Google Gemini API and Flask",
+      description: "An AI-powered conversational chatbot.",
+      imgUrl: projImg6,
+      link: "https://github.com/trinadas0/bff-bot",
+    }, 
   ];
 
   return (
